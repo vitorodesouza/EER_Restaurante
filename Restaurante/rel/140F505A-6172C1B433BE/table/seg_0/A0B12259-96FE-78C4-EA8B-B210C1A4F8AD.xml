@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0B12259-96FE-78C4-EA8B-B210C1A4F8AD" name="Comida">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:42:35 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Producto_ID" id="2636DC0C-5BDE-AC4A-981B-D74844A4C62D">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:42:51 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4835D739-71A1-01EE-36BE-A28FDFC67D31" referredColumn="D05C9623-C8D5-9080-44CA-6F848EC3C31C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49EBE44E-A349-9DF0-682C-7724ABFF496F" name="Comida_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:43:01 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2636DC0C-5BDE-AC4A-981B-D74844A4C62D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BACA893B-D857-BE59-BD07-FFC8E16A3C4B" name="Comida_Producto_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:42:51 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2636DC0C-5BDE-AC4A-981B-D74844A4C62D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

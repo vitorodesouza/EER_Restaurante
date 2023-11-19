@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ordena_Pedido_FK" directorySegmentName="seg_0" id="6B394774-A928-418B-2061-D82F864BB541">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>27967FFB-EB1B-35D4-7057-8BFF5F9B5C62</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>A0410B3A-66DD-522E-FA44-C8DC11F53355</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B08956D5-D8AF-1C57-DF27-3399A7A79E36</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>06F36267-8FDF-D927-C6C7-E1FF5A668E28</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

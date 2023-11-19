@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B08956D5-D8AF-1C57-DF27-3399A7A79E36" name="Pedido">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>A11E702E-D660-82BB-63D5-B52C17E6FDF8</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NumeroPedido" id="C2DB4663-615E-B929-279F-651103CE66D7">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>563C0511-5070-60A0-0427-0A631D209186</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cuenta" id="044CD3E3-D2CB-A7B0-D93C-3B766032CA2C">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>A4DEF4A5-D2A5-F4A9-D02C-2F8BBF991317</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>65A13F1A-31C2-8D55-A707-D2AAC3A7AE63</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0410B3A-66DD-522E-FA44-C8DC11F53355" name="Pedido PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>CE07AA95-0080-B432-28AC-5A59E55763F6</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2DB4663-615E-B929-279F-651103CE66D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDE6F2CC-6E4A-5864-D868-FE3053AFA16B" name="Ofrece">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:21:11 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sucursal_ID" id="259EA00A-2EE1-D837-B2F7-E3DF5B3D32BB">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:22:53 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD498820-A646-7A47-B23E-AA31C6A80D80" referredColumn="7F8C76AE-06BD-FD17-069B-1EFA87D5A986"/>
+</associations>
+</Column>
+<Column name="Producto_ID" id="767895E5-F2EF-100D-530F-E78CFF3DBF72">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:23:00 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64537E87-41C8-341E-BFEB-67B14E895A39" referredColumn="D05C9623-C8D5-9080-44CA-6F848EC3C31C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BC6FC44-1CBB-1487-6ED6-7DC06C7B4977" name="Ofrece_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:23:11 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="259EA00A-2EE1-D837-B2F7-E3DF5B3D32BB"/>
+<colUsage columnID="767895E5-F2EF-100D-530F-E78CFF3DBF72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="300C34CB-623E-9479-E95A-FE62CDC7CCA2" name="Ofrece_Sucursal_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:22:53 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="259EA00A-2EE1-D837-B2F7-E3DF5B3D32BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9032BC69-F145-54AF-2A86-1C43445BF8B7" name="Ofrece_Producto_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:23:00 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="767895E5-F2EF-100D-530F-E78CFF3DBF72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

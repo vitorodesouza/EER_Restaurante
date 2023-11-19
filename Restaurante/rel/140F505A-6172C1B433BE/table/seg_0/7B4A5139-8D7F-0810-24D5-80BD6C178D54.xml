@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B4A5139-8D7F-0810-24D5-80BD6C178D54" name="Producto">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:36:41 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D05C9623-C8D5-9080-44CA-6F848EC3C31C">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:37:13 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="0FADED98-B5AE-71F3-51B8-46362B046191">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:37:13 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>65A13F1A-31C2-8D55-A707-D2AAC3A7AE63</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Costo" id="81459BAD-2926-0162-EEDF-70C720F6DD12">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:37:23 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>65A13F1A-31C2-8D55-A707-D2AAC3A7AE63</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="A4C148CA-E849-0F3D-700B-66ABF1EFA60A">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:37:37 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E7ED879-BE05-6C48-C983-18CB384F59F8" name="Producto_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:37:27 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D05C9623-C8D5-9080-44CA-6F848EC3C31C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

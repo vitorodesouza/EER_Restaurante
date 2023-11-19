@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ofrece_Sucursal_FK" directorySegmentName="seg_0" id="3F64E0D7-7D4E-06AF-AA55-911586D7A450">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>BD498820-A646-7A47-B23E-AA31C6A80D80</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>E3251260-3133-B2C1-03D2-062BB0E4A393</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E907C9B-C86D-4E72-6167-1D129BDC6980</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A3F705C5-C4FC-B1CD-BBE6-B75B7835788A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

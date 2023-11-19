@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE8D2147-E912-1A82-9D27-52C638453A2E" name="Proveedor">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:50:46 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="002DB63E-1C7B-D609-FCB4-917182FE36EF">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:51:22 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIF" id="3BB1C1AB-1199-E4A1-7320-018D43F78003">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:51:22 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaAprobación" id="983730EB-EAED-1B6E-EF05-9354755C66D4">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:52:03 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7E195506-D1D5-C3C9-FC3C-4C580B7C17CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="56D8FD50-FD6D-B4D6-F2B2-65243DC349E5">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:52:03 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="4501EC25-22BB-09E1-8B82-6B924BDCDFC4">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:52:03 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CP" id="68C543DD-5B3E-7926-939C-48AEAA2E9609">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:52:03 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EED5FE87-AB2F-DB61-ED38-8FE795DDB629" name="Proveedor_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:51:22 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="002DB63E-1C7B-D609-FCB4-917182FE36EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65870888-F92E-766F-998B-765278CA38C5" name="Proveedor__UN">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:51:22 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB1C1AB-1199-E4A1-7320-018D43F78003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

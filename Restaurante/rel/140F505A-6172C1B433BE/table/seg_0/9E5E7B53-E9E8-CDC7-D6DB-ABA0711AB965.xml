@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E5E7B53-E9E8-CDC7-D6DB-ABA0711AB965" name="NecesitaDe">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:38:25 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cantidad" id="01A36772-D742-A40C-137F-0A1232B95C5A">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:38:39 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_ID" id="D894D9A7-4F6E-0A10-4544-2A66242E62F5">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:38:44 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9754C3F7-397C-0A5F-FFDA-508E1EB39197" referredColumn="D05C9623-C8D5-9080-44CA-6F848EC3C31C"/>
+</associations>
+</Column>
+<Column name="Ingrediente_ID" id="2C8D9552-5DB1-8CD9-8B8D-081A92B3EBD1">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:38:51 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49AB72A3-28A3-1275-8860-E9B1A9F16BC4" referredColumn="92AEDA36-9BD6-FB10-ECAC-682EFDA2470E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2462DA3-8468-BE16-135D-5BFC20E4C07F" name="NecesitaDe_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:39:05 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D894D9A7-4F6E-0A10-4544-2A66242E62F5"/>
+<colUsage columnID="2C8D9552-5DB1-8CD9-8B8D-081A92B3EBD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DC086AC-5832-0DA5-403A-B90AE5A35CD1" name="NecesitaDe_Producto_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:38:44 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D894D9A7-4F6E-0A10-4544-2A66242E62F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08D1B8AA-2346-3C03-5AD0-BB44903DCCD4" name="NecesitaDe_Ingrediente_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:38:51 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C8D9552-5DB1-8CD9-8B8D-081A92B3EBD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

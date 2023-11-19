@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Alergenos_Comida_FK" directorySegmentName="seg_0" id="63A390C6-8D0D-1322-C077-65088672CF14">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>FA3CECEB-204C-035B-2622-1CBB1DADBD69</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>80F312FD-5198-2D07-AA63-E04BEA3B12CB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5357EA32-3C17-32A9-085C-8961453E7728</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>982A0786-446D-34D4-DBEF-D2DBBF595D53</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

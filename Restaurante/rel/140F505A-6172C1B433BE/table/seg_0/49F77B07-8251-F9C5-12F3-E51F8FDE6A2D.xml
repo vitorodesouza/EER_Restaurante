@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49F77B07-8251-F9C5-12F3-E51F8FDE6A2D" name="Director">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:18:59 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FechaNombramiento" id="E36BF609-C685-8DA9-A967-E450D9CE7B6A">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:19:28 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7E195506-D1D5-C3C9-FC3C-4C580B7C17CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_DNI" id="D72DDB91-55B0-3BEF-B4C2-9558A138D4D6">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:19:45 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AB55AF1-DDC1-85EE-5D47-B94512866A25" referredColumn="ABD27A8E-ED1D-345F-1CD1-267EA9A8F00E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E40D15D-1538-E138-C966-6AAAC391DE22" name="Director_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:19:28 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D72DDB91-55B0-3BEF-B4C2-9558A138D4D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F80A8C7-0021-5DCE-CBEE-C79ACA5F2668" name="Director_Empleado_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:19:45 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D72DDB91-55B0-3BEF-B4C2-9558A138D4D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Suministra_Ingrediente_FK" directorySegmentName="seg_0" id="55E258AE-642B-42F8-191B-2F198970E190">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>F7BCCF84-D4DC-5D9C-AC2A-CB8A5463B533</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>82D3B22A-1F54-83B6-B8AC-48696D317847</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0286BB96-D57B-3806-5DFB-0B912D78E6FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7F277DA0-A8E8-5ED7-82A5-348400BE88C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

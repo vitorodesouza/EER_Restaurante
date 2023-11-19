@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TomaNotaDe_Pedido_FK" directorySegmentName="seg_0" id="4923080C-807D-189E-6A7E-447C906A0475">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>7A8934DE-1FA5-F116-9D71-AFBCE2248D6A</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>A0410B3A-66DD-522E-FA44-C8DC11F53355</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B08956D5-D8AF-1C57-DF27-3399A7A79E36</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>25C9E990-2304-79A4-82F6-667EF19662BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

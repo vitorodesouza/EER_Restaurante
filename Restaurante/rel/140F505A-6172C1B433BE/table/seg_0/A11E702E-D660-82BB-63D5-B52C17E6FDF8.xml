@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A11E702E-D660-82BB-63D5-B52C17E6FDF8" name="Pedido">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:36:01 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NumeroPedido" id="563C0511-5070-60A0-0427-0A631D209186">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:36:32 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cuenta" id="A4DEF4A5-D2A5-F4A9-D02C-2F8BBF991317">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:36:32 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>65A13F1A-31C2-8D55-A707-D2AAC3A7AE63</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE07AA95-0080-B432-28AC-5A59E55763F6" name="Pedido_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:31:36 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="563C0511-5070-60A0-0427-0A631D209186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

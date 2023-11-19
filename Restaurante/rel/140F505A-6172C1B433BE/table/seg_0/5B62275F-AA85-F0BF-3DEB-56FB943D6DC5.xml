@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B62275F-AA85-F0BF-3DEB-56FB943D6DC5" name="Restaurante">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:50:01 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>Rest</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8DB10318-14CA-D3BA-A02E-C539AAA5B764">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:50:41 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="C8B31BAA-85F0-047A-F9AF-B7948E1338B7">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:51:02 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vision" id="CB0408A5-56C1-6DCC-97BC-C8B9D65754CA">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:51:39 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estilo" id="A9BB8821-0F25-FEC9-D936-B16450CBB68B">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:51:39 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Director_Empleado_DNI" id="E57E3C70-6D18-9CF3-2DA1-570788E8D126">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:31:36 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6503AFC1-BA9A-105F-10DC-2D1BC8EB3D77" referredColumn="D72DDB91-55B0-3BEF-B4C2-9558A138D4D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF92E94D-1F00-0420-FA82-01F861FF3BDC" name="Restaurante_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:51:02 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DB10318-14CA-D3BA-A02E-C539AAA5B764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7136450B-BC75-1EBB-9EED-82C566DE07B9" name="Restaurante__UN">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:52:47 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8B31BAA-85F0-047A-F9AF-B7948E1338B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D925C46-1552-B053-D2EC-A7756B42EDB0" name="Restaurante_Director_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:31:36 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E57E3C70-6D18-9CF3-2DA1-570788E8D126"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

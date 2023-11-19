@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Principal_Comida_FK" directorySegmentName="seg_0" id="C348C4B3-F36B-34F2-635E-15E01340593C">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>60A8DC3E-4199-D9D7-B6F7-F584B4937BFE</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>80F312FD-5198-2D07-AA63-E04BEA3B12CB</sourcePk>
+<dominantRole>5357EA32-3C17-32A9-085C-8961453E7728</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5357EA32-3C17-32A9-085C-8961453E7728</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>70751E3C-7B7F-7B0A-7857-D5046DD65B90</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F39AE681-26F6-D404-E58B-B94373317CD2" name="Principal">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:44:22 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cubertería" id="9DF21E0D-E492-6300-867A-85EF0D068EC3">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:44:43 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria" id="0D05AE86-C79F-3C20-CEF7-FB2DDC98E417">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:44:53 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comida_Producto_ID" id="78F59D40-4F42-A247-184D-65AA60FB3673">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:45:35 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60A8DC3E-4199-D9D7-B6F7-F584B4937BFE" referredColumn="2636DC0C-5BDE-AC4A-981B-D74844A4C62D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE7297BC-0ECC-FFBB-B8AA-2A4BC0885909" name="Principal_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:45:56 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78F59D40-4F42-A247-184D-65AA60FB3673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E6A80C8-6F7A-BA09-908B-DBC56DDAA575" name="Principal_Comida_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:45:35 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78F59D40-4F42-A247-184D-65AA60FB3673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

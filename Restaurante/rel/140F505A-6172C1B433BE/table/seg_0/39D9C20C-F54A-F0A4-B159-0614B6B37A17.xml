@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39D9C20C-F54A-F0A4-B159-0614B6B37A17" name="CompuestoPor">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:30:49 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Producto_ID" id="C6460F6A-619D-ABCE-8715-0707A44D6E75">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:31:07 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D506F499-F2F9-2769-68CC-543319D8C0AC" referredColumn="D05C9623-C8D5-9080-44CA-6F848EC3C31C"/>
+</associations>
+</Column>
+<Column name="Pedido_NumeroPedido" id="932D0D35-79ED-6198-AB26-9DD96C15E3B6">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:31:55 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2718B74-5A70-37F0-3539-FC842DBC8938" referredColumn="563C0511-5070-60A0-0427-0A631D209186"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87A1810E-26F1-F917-3F53-67A003FB1436" name="CompuestoPor_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:32:09 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6460F6A-619D-ABCE-8715-0707A44D6E75"/>
+<colUsage columnID="932D0D35-79ED-6198-AB26-9DD96C15E3B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6134C19-05E8-1083-8FC2-4BF575A94EBF" name="CompuestoPor_Producto_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:31:07 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6460F6A-619D-ABCE-8715-0707A44D6E75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B69856F1-56D2-1C3E-8353-E9E15FB7CDB1" name="CompuestoPor_Pedido_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:31:55 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="932D0D35-79ED-6198-AB26-9DD96C15E3B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

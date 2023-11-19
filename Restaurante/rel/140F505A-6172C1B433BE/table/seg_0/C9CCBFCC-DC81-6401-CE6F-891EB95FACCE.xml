@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9CCBFCC-DC81-6401-CE6F-891EB95FACCE" name="Suministra">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:39:32 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cantidad" id="76DFB140-AF91-7DC1-100B-3955F67453A7">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:39:58 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ingrediente_ID" id="F9C61F36-B2AC-D1F2-789A-ABD8D36BBAEF">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:40:33 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7BCCF84-D4DC-5D9C-AC2A-CB8A5463B533" referredColumn="92AEDA36-9BD6-FB10-ECAC-682EFDA2470E"/>
+</associations>
+</Column>
+<Column name="Proveedor_ID" id="25387E4F-4016-91FC-9215-C486AD12B782">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:40:39 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0348020C-EC4E-93A1-B8A7-94E274BD0F4C" referredColumn="002DB63E-1C7B-D609-FCB4-917182FE36EF"/>
+</associations>
+</Column>
+<Column name="Sucursal_ID" id="5EF6A0D0-51C0-3091-090B-3E427A7B94C7">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:41:01 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEA16FC3-C59C-3F55-7624-6F0DAA1E684A" referredColumn="7F8C76AE-06BD-FD17-069B-1EFA87D5A986"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0430FB3-DCAD-17C2-A973-5B29E641D5E9" name="Suministra_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:41:30 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9C61F36-B2AC-D1F2-789A-ABD8D36BBAEF"/>
+<colUsage columnID="25387E4F-4016-91FC-9215-C486AD12B782"/>
+<colUsage columnID="5EF6A0D0-51C0-3091-090B-3E427A7B94C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="654CC342-B943-F4FE-E639-19A81B47D5EC" name="Suministra_Ingrediente_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:40:33 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9C61F36-B2AC-D1F2-789A-ABD8D36BBAEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCC8281E-3799-3417-3C70-4DE0685DA7BF" name="Suministra_Proveedor_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:40:39 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25387E4F-4016-91FC-9215-C486AD12B782"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C7C4E8C-1009-A7DC-A3DF-66E5A1B507AB" name="Suministra_Sucursal_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:41:01 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EF6A0D0-51C0-3091-090B-3E427A7B94C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

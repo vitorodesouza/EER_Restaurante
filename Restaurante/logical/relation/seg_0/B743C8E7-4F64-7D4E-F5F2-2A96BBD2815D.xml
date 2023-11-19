@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Camarero_Empleado_FK" directorySegmentName="seg_0" id="B743C8E7-4F64-7D4E-F5F2-2A96BBD2815D">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>3FA94756-E531-6394-FF76-31F157543000</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>FDAACA57-9694-F6B0-AFF0-8D95AE46DB1E</sourcePk>
+<dominantRole>2F170D5C-C1D6-C66A-BBA0-F0F31B6424D4</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F170D5C-C1D6-C66A-BBA0-F0F31B6424D4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C8D047BF-3427-7952-BACB-07B5799C64CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

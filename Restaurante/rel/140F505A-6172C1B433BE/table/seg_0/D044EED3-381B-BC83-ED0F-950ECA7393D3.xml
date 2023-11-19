@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D044EED3-381B-BC83-ED0F-950ECA7393D3" name="Empleado">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:57:20 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="ABD27A8E-ED1D-345F-1CD1-267EA9A8F00E">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:57:51 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NSS" id="F21B8B8D-E839-968A-43F6-D937F3CF9346">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:57:51 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="DE96CD52-4654-4EBB-8964-9A0779DFABBD">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:58:15 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaNascimiento" id="AE6AB71D-AF65-0874-3266-38438D33CB30">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:58:26 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7E195506-D1D5-C3C9-FC3C-4C580B7C17CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargo" id="57590A56-F9FC-E68D-A33A-F36213F4531F">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:58:37 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="D82BA547-569B-B6CF-9C3B-5612BA217BD9">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:06:02 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="30B0E68C-55BA-5E20-5F1A-B23FE7C5C7C3">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:06:10 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CP" id="44834539-4FA8-1F87-8022-123B92D424DF">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:06:54 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_DNI" id="2E81ADCC-70D9-878F-A5A9-F69F09F1E68B">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:23:07 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B99C6AED-E66D-BC7D-F6B1-8CBC4911087F" referredColumn="ABD27A8E-ED1D-345F-1CD1-267EA9A8F00E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1A2753F-8496-C73B-EAA9-0DD80374C2AD" name="Empleado_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:57:51 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABD27A8E-ED1D-345F-1CD1-267EA9A8F00E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA6B498B-8E25-9A42-B10A-35F3E177BFC1" name="Empleado__UN">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:58:01 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F21B8B8D-E839-968A-43F6-D937F3CF9346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F0CE091-B9AA-7E0F-0DC2-21C6D6DE81F3" name="DNISupervisor">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:23:07 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E81ADCC-70D9-878F-A5A9-F69F09F1E68B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="259573A9-76BB-0584-3F5B-5C1E68594103" name="NoAlcohólica">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:40:02 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ConSinGas" id="692C04FB-DD26-30EE-FA20-D14DB2B57AE3">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:40:32 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>6B0ACC90-7022-0A73-E53A-D6D97A7AABC3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bebida_Producto_ID" id="2EDB6973-5532-B3B5-078C-3FE99030217C">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:42:01 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37A1D80C-D412-EA26-30FC-D379C1B9DD2C" referredColumn="CB25F5C8-6187-30C4-D5E5-B9012C5222D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58618CC0-3C3B-FBB1-C0D6-106C0535203C" name="NoAlcohólica_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:42:14 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EDB6973-5532-B3B5-078C-3FE99030217C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E259198D-72EB-9501-0728-0FF38E948F6B" name="NoAlcohólica_Bebida_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:42:01 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EDB6973-5532-B3B5-078C-3FE99030217C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

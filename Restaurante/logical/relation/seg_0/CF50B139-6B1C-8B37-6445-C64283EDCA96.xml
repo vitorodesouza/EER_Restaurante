@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Alcohólica_Bebida_FK" directorySegmentName="seg_0" id="CF50B139-6B1C-8B37-6445-C64283EDCA96">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>B9354C13-552B-C8BF-77E5-8FE3040565FF</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>004485AB-8DF0-82AC-BEA5-31F13E387A57</sourcePk>
+<dominantRole>DBA0FDCA-E733-ECB0-2224-77C4F2B55EFA</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DBA0FDCA-E733-ECB0-2224-77C4F2B55EFA</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>21E28E56-394F-E933-50BC-702F904FDDD9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

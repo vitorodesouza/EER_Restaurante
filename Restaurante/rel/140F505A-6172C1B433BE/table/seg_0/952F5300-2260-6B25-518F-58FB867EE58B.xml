@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="952F5300-2260-6B25-518F-58FB867EE58B" name="Guarda">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:36:19 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fecha" id="436F09C7-34CC-5366-045E-6389DD428335">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:36:36 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7E195506-D1D5-C3C9-FC3C-4C580B7C17CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reserva_ID" id="5FA0FA95-6B40-6602-8B69-CDA6EC555349">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:36:43 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25B24EBE-A953-82F9-9933-7DFECDC96789" referredColumn="5C1968D3-8633-4707-3215-0F20756E3543"/>
+</associations>
+</Column>
+<Column name="Reserva_Sucursal_ID" id="4E4F3554-4DB6-3606-8203-A868D4D9994A">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:36:43 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25B24EBE-A953-82F9-9933-7DFECDC96789" referredColumn="65EDB306-1638-1D75-A305-C77948185161"/>
+</associations>
+</Column>
+<Column name="Reserva_Cliente_ID" id="C4FA4AB5-8132-BEDC-3AC0-09E56ED46E64">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:36:43 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25B24EBE-A953-82F9-9933-7DFECDC96789" referredColumn="E9B262BF-DE2E-0E26-8634-7C1653EA6319"/>
+</associations>
+</Column>
+<Column name="Mesa_Numero" id="56207907-B15D-68F9-C3E5-D99C08B0DDA8">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:37:15 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5839850-8C2B-DCA4-233A-C61B3E7E52D0" referredColumn="19534745-DD26-243E-4EB2-72575B1A867D"/>
+</associations>
+</Column>
+<Column name="Mesa_Sucursal_ID" id="01C37089-9DCC-874A-9415-AB669D6B0885">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:37:15 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5839850-8C2B-DCA4-233A-C61B3E7E52D0" referredColumn="AF5EE192-FE5C-3E6A-9A9F-5569CF422E6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A9A8F3C-DF8A-C637-0B2D-7F037F2D28D9" name="Guarda_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:37:52 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FA0FA95-6B40-6602-8B69-CDA6EC555349"/>
+<colUsage columnID="4E4F3554-4DB6-3606-8203-A868D4D9994A"/>
+<colUsage columnID="C4FA4AB5-8132-BEDC-3AC0-09E56ED46E64"/>
+<colUsage columnID="56207907-B15D-68F9-C3E5-D99C08B0DDA8"/>
+<colUsage columnID="01C37089-9DCC-874A-9415-AB669D6B0885"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="572EAF2A-C9A8-4F2D-6F1F-D5DF6FFA8AF9" name="Guarda_Reserva_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:36:43 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FA0FA95-6B40-6602-8B69-CDA6EC555349"/>
+<colUsage columnID="4E4F3554-4DB6-3606-8203-A868D4D9994A"/>
+<colUsage columnID="C4FA4AB5-8132-BEDC-3AC0-09E56ED46E64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCE317A4-B64A-47EE-657E-A28EE2F53D82" name="Guarda_Mesa_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:37:15 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56207907-B15D-68F9-C3E5-D99C08B0DDA8"/>
+<colUsage columnID="01C37089-9DCC-874A-9415-AB669D6B0885"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F10B363E-482B-580B-245F-BFCCDB1AFF0C" name="Ingrediente">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:49:43 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="92AEDA36-9BD6-FB10-ECAC-682EFDA2470E">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:50:44 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Costo" id="08ED9EB8-62B6-F9B2-A129-2604AF7DC765">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:50:02 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>65A13F1A-31C2-8D55-A707-D2AAC3A7AE63</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E266CC35-8BEC-2F0C-0CE0-EDFA334507D4" name="Ingrediente_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:50:44 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92AEDA36-9BD6-FB10-ECAC-682EFDA2470E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

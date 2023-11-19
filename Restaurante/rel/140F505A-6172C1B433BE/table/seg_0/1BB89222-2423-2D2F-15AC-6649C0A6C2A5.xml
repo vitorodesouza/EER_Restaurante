@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BB89222-2423-2D2F-15AC-6649C0A6C2A5" name="TomaNotaDe">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:34:46 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Camarero_Empleado_DNI" id="C344BF46-290A-A2FF-F7F1-643DB2188C9A">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:35:12 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE2A581E-7B0F-1A83-8FFA-222FF82B0397" referredColumn="F40B15D5-CC40-29DC-C3F9-3B06E998FB24"/>
+</associations>
+</Column>
+<Column name="Pedido_NumeroPedido" id="B3654765-B168-6604-522C-3EDC36EA8DEB">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:35:20 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A8934DE-1FA5-F116-9D71-AFBCE2248D6A" referredColumn="563C0511-5070-60A0-0427-0A631D209186"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECAD9561-9E12-F0FF-DADC-6FF1D60AB10A" name="TomaNotaDe_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:35:30 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C344BF46-290A-A2FF-F7F1-643DB2188C9A"/>
+<colUsage columnID="B3654765-B168-6604-522C-3EDC36EA8DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68A1A593-B61A-A8D7-879B-F799B5B3C8E3" name="TomaNotaDe_Camarero_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:35:12 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C344BF46-290A-A2FF-F7F1-643DB2188C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5FF9150-3473-42B6-0F5F-5BB2EF1BC488" name="TomaNotaDe_Pedido_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:35:20 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3654765-B168-6604-522C-3EDC36EA8DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

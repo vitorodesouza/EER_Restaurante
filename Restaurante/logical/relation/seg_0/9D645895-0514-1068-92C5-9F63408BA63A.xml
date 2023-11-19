@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TeléfonoEmpleado_Empleado_FK" directorySegmentName="seg_0" id="9D645895-0514-1068-92C5-9F63408BA63A">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>0E963715-89CB-1387-66A1-3509DDB6932F</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>FDAACA57-9694-F6B0-AFF0-8D95AE46DB1E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F170D5C-C1D6-C66A-BBA0-F0F31B6424D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F9CA520-C4A7-96F9-8BE6-3EF717AB1A18</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

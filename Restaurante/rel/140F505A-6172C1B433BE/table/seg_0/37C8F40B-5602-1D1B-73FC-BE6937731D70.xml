@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37C8F40B-5602-1D1B-73FC-BE6937731D70" name="Entrante">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:43:28 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FriosCalientes" id="0EF09C33-80FC-F26E-CFE8-88512994B440">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:44:07 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comida_Producto_ID" id="2700171F-F434-BC11-DDA7-C2271B90D06B">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:45:27 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80E67744-4250-0AB3-82E6-FB456C171198" referredColumn="2636DC0C-5BDE-AC4A-981B-D74844A4C62D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCADC96C-F678-8907-0CD3-89A36D6B44E1" name="Entrante_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:45:50 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2700171F-F434-BC11-DDA7-C2271B90D06B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E5D35F7-C8E0-2021-83B5-AF186A5BBA20" name="Entrante_Comida_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:45:27 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2700171F-F434-BC11-DDA7-C2271B90D06B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

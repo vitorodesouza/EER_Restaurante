@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2998A0C8-C039-5946-847D-BF34CF597BEA" name="TrabajaEn">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:03:09 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sucursal_ID" id="6A44FE48-FB4D-8A4A-29ED-47A2FBD638A9">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:03:21 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A446B9BA-8A7F-74FB-D979-8AF1D30FFE15" referredColumn="7F8C76AE-06BD-FD17-069B-1EFA87D5A986"/>
+</associations>
+</Column>
+<Column name="Empleado_DNI" id="9EDE4CE0-F165-9870-EF75-49EBEF31D925">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:03:28 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0DD99CB-00D9-CA13-1613-6D2550CBE29E" referredColumn="ABD27A8E-ED1D-345F-1CD1-267EA9A8F00E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D41206A-995F-C928-3F11-0897502EE1AB" name="TrabajaEn_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:22:42 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A44FE48-FB4D-8A4A-29ED-47A2FBD638A9"/>
+<colUsage columnID="9EDE4CE0-F165-9870-EF75-49EBEF31D925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="191BF08D-D019-90F1-EAD6-2DFC37F2C88D" name="TrabajaEn_Sucursal_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:03:21 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A44FE48-FB4D-8A4A-29ED-47A2FBD638A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC3B6B16-2637-55FC-6834-884A815992B3" name="TrabajaEn_Empleado_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:03:28 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EDE4CE0-F165-9870-EF75-49EBEF31D925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

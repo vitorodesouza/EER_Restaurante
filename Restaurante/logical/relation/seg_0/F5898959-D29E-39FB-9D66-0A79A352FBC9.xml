@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realiza_Reserva_FK" directorySegmentName="seg_0" id="F5898959-D29E-39FB-9D66-0A79A352FBC9">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<generatorID>6B6D039F-0E32-953D-F4FB-D401D749444E</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<sourcePk>2258C8D6-B9D4-101E-9659-327A1AE4BFF5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7D2D0CA2-F7CE-54A4-553C-72278756405E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>57FF2468-7DDA-CAFA-DE65-ABAC2282C24D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

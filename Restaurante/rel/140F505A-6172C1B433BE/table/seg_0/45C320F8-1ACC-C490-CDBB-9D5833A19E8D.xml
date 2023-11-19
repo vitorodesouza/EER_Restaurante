@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45C320F8-1ACC-C490-CDBB-9D5833A19E8D" name="Sucursal">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:53:07 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7F8C76AE-06BD-FD17-069B-1EFA87D5A986">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:53:54 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIF" id="77FBD2C1-1087-9969-AB43-D414BE3C799A">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:53:54 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>34A960BB-F27A-BAFC-724E-AA4C95A13A56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="97F44593-CF20-5585-EA7F-66F541EC29E2">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:54:22 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaInauguracion" id="5B987FED-9D24-E0BD-7AC5-E0B2AA1EF234">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:54:43 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7E195506-D1D5-C3C9-FC3C-4C580B7C17CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="B25A0CB2-142E-1ADE-60FC-FD5751E7AFA8">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:55:02 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="B6020000-CB97-BD1B-3A41-6657CBAABC7D">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:55:16 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CP" id="7BA9777C-4F14-85A1-F26A-69C606472B6D">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:55:28 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restaurante_ID" id="32C15123-9297-13D6-0121-3297CCF21553">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:25:42 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F3BD247-A12D-2C71-AFE0-E03C92F98CF4" referredColumn="8DB10318-14CA-D3BA-A02E-C539AAA5B764"/>
+</associations>
+</Column>
+<Column name="Gerente_Empleado_DNI" id="5302FC8D-5041-C982-917F-382387B0B0E7">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:29:52 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFBAAA19-C29E-9FA8-A262-23C6027546D8" referredColumn="E2D3A607-1E4C-AA07-CDA6-D495CA5EED42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E55B85D6-958B-F68F-85C1-B00E0843736B" name="Sucursal_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:26:33 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F8C76AE-06BD-FD17-069B-1EFA87D5A986"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14947F99-C503-0308-60F7-543BF4DDC942" name="Sucursal__UN">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:54:09 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77FBD2C1-1087-9969-AB43-D414BE3C799A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="933122E5-4B2E-20A5-9665-73C107EB67D6" name="Sucursal_Restaurante_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:25:42 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32C15123-9297-13D6-0121-3297CCF21553"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57206198-3CC5-6F66-8387-1E3372EDF880" name="Sucursal_Gerente_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:29:52 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5302FC8D-5041-C982-917F-382387B0B0E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25C109A1-6122-8C80-B4ED-1816D7C26A3F" name="ResultadosFinanceiros">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:55:49 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1A02C0E0-4BD6-2CC9-9DC7-F776938A1994">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:56:20 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ingresos" id="CE871212-B7F3-EA9E-4C1C-9067D5AD5A5A">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:56:20 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>65A13F1A-31C2-8D55-A707-D2AAC3A7AE63</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CostosOp" id="798C93ED-958D-FCDE-ACDB-3041A3031E20">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:56:36 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>65A13F1A-31C2-8D55-A707-D2AAC3A7AE63</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ganancias" id="BAC807F9-4235-28FB-C4EE-5EA28F621638">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:56:47 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>65A13F1A-31C2-8D55-A707-D2AAC3A7AE63</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursal_ID" id="F943ACB2-782F-D435-A112-CC870459A2BB">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:26:42 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FC84A22-B866-43FD-8A78-C8844CC3DB02" referredColumn="7F8C76AE-06BD-FD17-069B-1EFA87D5A986"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC40994D-2010-7243-EBF0-0188D071EB03" name="ResultadosFinanceiros_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 15:56:24 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A02C0E0-4BD6-2CC9-9DC7-F776938A1994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E18BCCB-2F27-C65C-57E8-FDB02E3307DF" name="ResultadosFinanceiros_Sucursal_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:26:42 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F943ACB2-782F-D435-A112-CC870459A2BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

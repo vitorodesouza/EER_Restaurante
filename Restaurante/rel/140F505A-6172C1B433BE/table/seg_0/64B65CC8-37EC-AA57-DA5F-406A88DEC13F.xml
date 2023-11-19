@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64B65CC8-37EC-AA57-DA5F-406A88DEC13F" name="Reserva">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:55:20 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5C1968D3-8633-4707-3215-0F20756E3543">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:55:58 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="ABD845CC-6381-D7B7-EF30-A89A80265A3A">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:55:58 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="933069A8-7EFC-F01F-FA77-5D9F95F3E668">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:55:58 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursal_ID" id="65EDB306-1638-1D75-A305-C77948185161">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:56:04 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F360211C-2A30-9698-4910-57D51F50460E" referredColumn="7F8C76AE-06BD-FD17-069B-1EFA87D5A986"/>
+</associations>
+</Column>
+<Column name="Cliente_ID" id="E9B262BF-DE2E-0E26-8634-7C1653EA6319">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:56:22 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3FC6884-F20D-0894-9B43-5C12D2F0BB4B" referredColumn="5EE79065-0E16-7401-00D9-88125F802EA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30BE6784-56F7-BAC3-3A82-977A88D4B5B8" name="Reserva_PK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:56:39 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C1968D3-8633-4707-3215-0F20756E3543"/>
+<colUsage columnID="65EDB306-1638-1D75-A305-C77948185161"/>
+<colUsage columnID="E9B262BF-DE2E-0E26-8634-7C1653EA6319"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23707C86-8990-2884-8C77-501C1D40A0A1" name="Reserva_Sucursal_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:56:04 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65EDB306-1638-1D75-A305-C77948185161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAB9F424-7495-757B-E50E-2844E84590D2" name="Reserva_Cliente_FK">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-19 16:56:22 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9B262BF-DE2E-0E26-8634-7C1653EA6319"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
