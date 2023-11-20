@@ -61,6 +61,15 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <synonym>Name</synonym>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_Numbers" id="9E230F87-486A-690B-526E-71E52311EFAC">
+<createdBy>vos_v</createdBy>
+<createdTime>2023-11-20 11:00:49 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 09:22:01 UTC</createdTime>
