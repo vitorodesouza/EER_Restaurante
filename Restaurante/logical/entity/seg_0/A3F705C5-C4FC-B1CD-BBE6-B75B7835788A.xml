@@ -26,7 +26,7 @@
 </engineerTo>
 <referedAttribute>DA84FDD3-8807-6145-37A4-E0BDB4A44118</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -40,7 +40,7 @@
 </engineerTo>
 <referedAttribute>46B7732F-5ADF-25FF-5435-B83662605801</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

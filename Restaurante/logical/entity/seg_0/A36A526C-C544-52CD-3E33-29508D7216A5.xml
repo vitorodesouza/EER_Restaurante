@@ -25,7 +25,7 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -81,7 +81,7 @@
 </engineerTo>
 <referedAttribute>DA84FDD3-8807-6145-37A4-E0BDB4A44118</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

@@ -13,9 +13,11 @@
 <createdTime>2023-11-19 16:55:58 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Nombre" id="ABD845CC-6381-D7B7-EF30-A89A80265A3A">
@@ -45,7 +47,7 @@
 <createdTime>2023-11-19 16:56:04 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
@@ -59,7 +61,7 @@
 <createdTime>2023-11-19 16:56:22 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>

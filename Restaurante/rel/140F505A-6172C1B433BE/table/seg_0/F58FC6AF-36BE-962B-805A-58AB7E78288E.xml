@@ -13,7 +13,7 @@
 <createdTime>2023-11-19 17:42:47 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
@@ -27,7 +27,7 @@
 <createdTime>2023-11-19 17:42:52 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
@@ -41,7 +41,7 @@
 <createdTime>2023-11-19 17:42:52 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
@@ -55,7 +55,7 @@
 <createdTime>2023-11-19 17:42:52 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
@@ -69,7 +69,7 @@
 <createdTime>2023-11-19 17:43:11 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>

@@ -13,10 +13,12 @@
 <createdTime>2023-11-19 17:03:21 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="A446B9BA-8A7F-74FB-D979-8AF1D30FFE15" referredColumn="7F8C76AE-06BD-FD17-069B-1EFA87D5A986"/>
@@ -27,8 +29,8 @@
 <createdTime>2023-11-19 17:03:28 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>34A960BB-F27A-BAFC-724E-AA4C95A13A56</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
