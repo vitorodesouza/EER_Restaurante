@@ -13,9 +13,11 @@
 <createdTime>2023-11-19 16:50:44 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <use>0</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Costo" id="08ED9EB8-62B6-F9B2-A129-2604AF7DC765">
