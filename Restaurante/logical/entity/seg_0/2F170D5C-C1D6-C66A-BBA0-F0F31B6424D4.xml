@@ -24,9 +24,9 @@
 <engineerTo>
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NSS" id="2CB8BC2F-E8AA-DBA0-6099-DDAD124394E5">
@@ -38,9 +38,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nombre" id="2BE6AD6E-9E55-4120-0734-67651CF65948">
@@ -52,10 +52,11 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FechaNascimiento" id="8679C7AF-DF56-B0CC-020F-E908EB8E5AFE">
 <createdBy>vos_v</createdBy>
@@ -66,9 +67,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<domain>7E195506-D1D5-C3C9-FC3C-4C580B7C17CA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Cargo" id="88087669-93E0-0B1A-D4D0-7CAE7A981AFB">
@@ -80,10 +81,11 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Calle" id="AC0930DF-FBA9-51D5-390B-1899DD600757">
 <createdBy>vos_v</createdBy>
@@ -94,10 +96,11 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Ciudad" id="C6BA48F4-E6C3-FFDF-9BC8-C29A02AA7670">
 <createdBy>vos_v</createdBy>
@@ -108,10 +111,11 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CP" id="3631DB35-E5F3-EEFD-B90E-4DCF6B579FDC">
 <createdBy>vos_v</createdBy>
@@ -122,9 +126,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Empleado DNI" id="A2B3C7A3-728B-4824-7574-0DE632D5DA96">
@@ -135,11 +139,10 @@
 <engineerTo>
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>E0A89E35-12E7-F4F1-86A7-33B696D8BBEA</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -149,21 +152,23 @@
 <createdTime>2023-11-19 17:48:34 UTC</createdTime>
 <generatorID>A1A2753F-8496-C73B-EAA9-0DD80374C2AD</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E0A89E35-12E7-F4F1-86A7-33B696D8BBEA</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="72BA82D0-1785-B087-7767-87F1778230F0" name="Empleado  UN">
+<identifier id="72BA82D0-1785-B087-7767-87F1778230F0" name="Empleado_NSS_UN">
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 17:48:34 UTC</createdTime>
 <generatorID>AA6B498B-8E25-9A42-B10A-35F3E177BFC1</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <usedAttributes>
 <attributeRef>2CB8BC2F-E8AA-DBA0-6099-DDAD124394E5</attributeRef>

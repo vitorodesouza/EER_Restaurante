@@ -12,9 +12,9 @@
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:51:22 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
@@ -25,9 +25,9 @@
 <createdTime>2023-11-19 16:51:22 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -36,9 +36,9 @@
 <createdTime>2023-11-19 16:52:03 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<domain>7E195506-D1D5-C3C9-FC3C-4C580B7C17CA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -47,10 +47,11 @@
 <createdTime>2023-11-19 16:52:03 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Ciudad" id="4501EC25-22BB-09E1-8B82-6B924BDCDFC4">
@@ -58,10 +59,11 @@
 <createdTime>2023-11-19 16:52:03 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CP" id="68C543DD-5B3E-7926-939C-48AEAA2E9609">
@@ -71,7 +73,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -88,7 +90,7 @@
 <colUsage columnID="002DB63E-1C7B-D609-FCB4-917182FE36EF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="65870888-F92E-766F-998B-765278CA38C5" name="Proveedor__UN">
+<ind_PK_UK id="65870888-F92E-766F-998B-765278CA38C5" name="Proveedor_NIF_UN">
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:51:22 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>

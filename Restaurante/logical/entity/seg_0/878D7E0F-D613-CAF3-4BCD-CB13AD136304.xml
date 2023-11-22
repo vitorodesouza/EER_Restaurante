@@ -25,9 +25,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<domain>6B0ACC90-7022-0A73-E53A-D6D97A7AABC3</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Bebida Producto ID" id="8F0AF677-9BF0-854C-3FCE-88F5B0EEE439">
@@ -39,9 +39,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <referedAttribute>D3217F1D-E674-A2C5-ED2C-310A54730962</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -51,8 +51,9 @@
 <createdTime>2023-11-19 17:48:34 UTC</createdTime>
 <generatorID>58618CC0-3C3B-FBB1-C0D6-106C0535203C</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

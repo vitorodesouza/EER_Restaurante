@@ -25,9 +25,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<domain>7E195506-D1D5-C3C9-FC3C-4C580B7C17CA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Reserva ID" id="C4AEAE40-1F0A-75DD-1194-07F80B5508A9">
@@ -39,9 +39,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <referedAttribute>12433E48-859F-46ED-6341-C00C79345176</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Reserva Sucursal ID" id="90BA00EB-0323-1263-75B2-12B337E3903D">
@@ -53,9 +53,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <referedAttribute>413B63B3-15B9-1370-41FE-97F93C2FE3DF</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Reserva Cliente ID" id="50A08183-339A-3F7F-5CA1-4C8F5D7CA883">
@@ -67,9 +67,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <referedAttribute>4BF1AD2E-E16C-995E-83B6-F922C3439A75</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Mesa Numero" id="16F216B0-5090-6942-532D-2A4C69835B74">
@@ -81,9 +81,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <referedAttribute>D5AD5556-355C-20FB-40BD-79238C02F038</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Mesa Sucursal ID" id="6C6D1DF1-7B41-3B45-BC61-D1C95775A681">
@@ -95,9 +95,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <referedAttribute>0B979BDE-5C4D-D135-B919-5339430A9B03</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -107,8 +107,9 @@
 <createdTime>2023-11-19 17:48:34 UTC</createdTime>
 <generatorID>0A9A8F3C-DF8A-C637-0B2D-7F037F2D28D9</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

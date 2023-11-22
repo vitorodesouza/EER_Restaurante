@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB0A8B70-0A29-2326-EA52-315FED00EA2E" name="Valores">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:19:33 UTC</createdTime>
+<generatorID>00C45DD6-5385-BFB6-CD4A-8FF487A443DA</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Valor" id="827FBF21-6A65-25A1-C0EA-0EAFEDDA5D0A">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:19:33 UTC</createdTime>
+<generatorID>869679E4-0EDA-EDB3-F8E3-0FAC4717936B</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restaurante_ID" id="5778E2AE-C76C-ADBD-AF0E-906B908B9797">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:19:33 UTC</createdTime>
+<generatorID>7ECF5E32-276F-2960-42CF-43E752BFD328</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A103B80-8F6F-132C-7F4F-8B0612F8A872" referredColumn="8DB10318-14CA-D3BA-A02E-C539AAA5B764"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="082C72CD-336B-F570-207A-6D0E9288D8C4" name="Valores_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:19:33 UTC</createdTime>
+<generatorID>B36B5D47-7305-0C67-AF5A-639D017561C1</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="827FBF21-6A65-25A1-C0EA-0EAFEDDA5D0A"/>
+<colUsage columnID="5778E2AE-C76C-ADBD-AF0E-906B908B9797"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A5743EF-2995-3157-1E1C-DFEA13D73A12" name="Valores_Restaurante_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:19:33 UTC</createdTime>
+<generatorID>5BF1C925-6B40-82FD-7EA7-649438BEA2F0</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5778E2AE-C76C-ADBD-AF0E-906B908B9797"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

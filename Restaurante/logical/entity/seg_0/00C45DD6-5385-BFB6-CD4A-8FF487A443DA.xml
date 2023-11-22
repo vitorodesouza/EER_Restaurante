@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F9CA520-C4A7-96F9-8BE6-3EF717AB1A18" name="TeléfonoEmpleado">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>24595AD1-7957-361A-6C6E-B8EDFE6DFEEE</generatorID>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00C45DD6-5385-BFB6-CD4A-8FF487A443DA" name="Valores">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:06:37 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <engineerTo>
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
@@ -16,39 +15,38 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Teléfono" id="4E966350-B028-1B49-95C5-70C4D7F54BDC">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>9C73CDBB-04E4-FEE0-2051-1DCE61CE2151</generatorID>
+<Attribute name="Valor" id="869679E4-0EDA-EDB3-F8E3-0FAC4717936B">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:06:59 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <engineerTo>
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Empleado DNI" id="BE08762B-025A-66B7-77C2-10699CD6003A">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>9D645895-0514-1068-92C5-9F63408BA63A</generatorID>
+<Attribute name="Restaurante ID" id="7ECF5E32-276F-2960-42CF-43E752BFD328">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:09:26 UTC</createdTime>
+<generatorID>5BF1C925-6B40-82FD-7EA7-649438BEA2F0</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
 <engineerTo>
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
-<referedAttribute>E0A89E35-12E7-F4F1-86A7-33B696D8BBEA</referedAttribute>
+<referedAttribute>F45A2F0D-84C2-3E36-5723-14FB02371DF6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0E10AF25-8F61-B557-815C-D8E4A1051DD9" name="TeléfonoEmpleado PK">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>F9B25C06-FBFE-F1F9-11CA-F1B544FB59A0</generatorID>
+<identifier id="B36B5D47-7305-0C67-AF5A-639D017561C1" name="Valores PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:07:31 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -56,8 +54,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4E966350-B028-1B49-95C5-70C4D7F54BDC</attributeRef>
-<attributeRef>BE08762B-025A-66B7-77C2-10699CD6003A</attributeRef>
+<attributeRef>869679E4-0EDA-EDB3-F8E3-0FAC4717936B</attributeRef>
+<attributeRef>7ECF5E32-276F-2960-42CF-43E752BFD328</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -24,9 +24,9 @@
 <engineerTo>
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nombre" id="81B55198-1CA5-8E3B-9FA1-CDE88B18A922">
@@ -38,10 +38,11 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Telefono" id="8436D7C9-D3B9-7B0D-97BF-D47C33A957CE">
 <createdBy>vos_v</createdBy>
@@ -52,9 +53,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<domain>34A960BB-F27A-BAFC-724E-AA4C95A13A56</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -64,8 +65,9 @@
 <createdTime>2023-11-19 17:48:34 UTC</createdTime>
 <generatorID>B4050BFE-FA31-9A8C-4AE0-8995E435D026</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

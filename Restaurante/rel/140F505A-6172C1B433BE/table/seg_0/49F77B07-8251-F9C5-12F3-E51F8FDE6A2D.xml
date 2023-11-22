@@ -13,9 +13,9 @@
 <createdTime>2023-11-19 16:19:28 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<domain>7E195506-D1D5-C3C9-FC3C-4C580B7C17CA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -23,14 +23,29 @@
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:19:45 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="1AB55AF1-DDC1-85EE-5D47-B94512866A25" referredColumn="ABD27A8E-ED1D-345F-1CD1-267EA9A8F00E"/>
+</associations>
+</Column>
+<Column name="Restaurante_ID" id="611101C2-3887-CBFA-BA08-1777557DA238">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:54:10 UTC</createdTime>
+<generatorID>27080997-560A-652E-3C99-E96A0FDD63E7</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5BA57B9-36B4-C582-23E4-722B43238922" referredColumn="8DB10318-14CA-D3BA-A02E-C539AAA5B764"/>
 </associations>
 </Column>
 </columns>
@@ -46,6 +61,17 @@
 <colUsage columnID="D72DDB91-55B0-3BEF-B4C2-9558A138D4D6"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="1BCBC95E-20A6-EFCD-2CE7-1A4DA7C1341A" name="Director__IDX">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:54:10 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6EA0095B-B6E4-8946-A5A9-4422F569836F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="611101C2-3887-CBFA-BA08-1777557DA238"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="9F80A8C7-0021-5DCE-CBEE-C79ACA5F2668" name="Director_Empleado_FK">
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:19:45 UTC</createdTime>
@@ -54,6 +80,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D72DDB91-55B0-3BEF-B4C2-9558A138D4D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA6A274E-3D97-42B0-8905-6454755FBE4A" name="Director_Restaurante_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:54:10 UTC</createdTime>
+<generatorID>6EA0095B-B6E4-8946-A5A9-4422F569836F</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="611101C2-3887-CBFA-BA08-1777557DA238"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

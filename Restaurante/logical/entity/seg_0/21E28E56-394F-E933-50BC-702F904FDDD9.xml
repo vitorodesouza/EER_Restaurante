@@ -25,10 +25,11 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Bebida Producto ID" id="E434F30A-1330-AF05-C174-D10A98CF6F12">
 <createdBy>vos_v</createdBy>
@@ -39,9 +40,9 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <referedAttribute>D3217F1D-E674-A2C5-ED2C-310A54730962</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -51,8 +52,9 @@
 <createdTime>2023-11-19 17:48:34 UTC</createdTime>
 <generatorID>A994B4C5-4540-2628-FBAB-2BCA7F09987A</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

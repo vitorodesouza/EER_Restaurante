@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DNISupervisor" directorySegmentName="seg_0" id="D8AE98C3-6250-9246-D44E-5029E7366317">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Empleado Empleado FK" directorySegmentName="seg_0" id="D8AE98C3-6250-9246-D44E-5029E7366317">
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 17:48:34 UTC</createdTime>
 <generatorID>B99C6AED-E66D-BC7D-F6B1-8CBC4911087F</generatorID>
@@ -9,7 +9,7 @@
 </engineerTo>
 <targetPk>FDAACA57-9694-F6B0-AFF0-8D95AE46DB1E</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>2F170D5C-C1D6-C66A-BBA0-F0F31B6424D4</sourceEntity>

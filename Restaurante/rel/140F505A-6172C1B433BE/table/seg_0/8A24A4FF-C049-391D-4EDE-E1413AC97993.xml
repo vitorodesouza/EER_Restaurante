@@ -12,9 +12,9 @@
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:20:31 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

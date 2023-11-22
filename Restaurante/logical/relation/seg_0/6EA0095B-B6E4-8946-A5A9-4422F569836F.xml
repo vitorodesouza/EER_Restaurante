@@ -8,12 +8,13 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <sourcePk>252B32BE-905D-F8EB-1450-66434F5FC175</sourcePk>
+<targetPk>1A027229-0E12-1365-BD22-E1554282E2DF</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>CE411E5B-DB77-7766-3E5A-D48D5FF6F7DB</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>157B5966-4615-109B-D97E-10F508379A9B</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

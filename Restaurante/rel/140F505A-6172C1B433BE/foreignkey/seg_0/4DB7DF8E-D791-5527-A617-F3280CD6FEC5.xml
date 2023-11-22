@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FC84A22-B866-43FD-8A78-C8844CC3DB02" containerWithKeyObject="25C109A1-6122-8C80-B4ED-1816D7C26A3F" localFKIndex="4E18BCCB-2F27-C65C-57E8-FDB02E3307DF" name="ResultadosFinanceiros_Sucursal_FK">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 16:26:42 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4DB7DF8E-D791-5527-A617-F3280CD6FEC5" containerWithKeyObject="43D7B91D-60FF-C5C8-50A6-2023AB9AC1C3" localFKIndex="3D8DCA0B-0B18-54C0-C080-2C9CF94DEB5E" name="Gerente_Sucursal_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:54:10 UTC</createdTime>
+<generatorID>2ACDF868-9D45-BA07-8F60-7DEA7F504C77</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
 <referredTableLongName>Sucursal</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

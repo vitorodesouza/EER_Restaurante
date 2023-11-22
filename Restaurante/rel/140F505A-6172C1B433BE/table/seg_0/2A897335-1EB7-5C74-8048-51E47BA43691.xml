@@ -5,6 +5,7 @@
 <ownerDesignName>Restaurante</ownerDesignName>
 <ordsAlias>table_26</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -13,9 +14,9 @@
 <createdTime>2023-11-19 17:01:21 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<domain>EC2DAD74-4123-EF68-C626-D13E80D8C7BB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -24,19 +25,20 @@
 <createdTime>2023-11-19 17:01:21 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>E2F53EC7-E748-51A4-BF85-8DB6CA98C64F</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Sucursal_ID" id="3CD83D59-99B4-1645-D968-7099C8E8D525">
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 17:01:28 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -48,9 +50,10 @@
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 17:02:27 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
+<dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -62,9 +65,9 @@
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 17:02:27 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -84,6 +87,18 @@
 <indexColumnUsage>
 <colUsage columnID="3CD83D59-99B4-1645-D968-7099C8E8D525"/>
 <colUsage columnID="FFE55BA7-ED9B-4F57-7404-E77A5AD36FE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A7A26E0-0289-A864-4580-27EAFB7474D4" name="Valora__IDX">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:54:10 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8E306B41-FC86-D713-CCD9-9E45A0638AD9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FFE55BA7-ED9B-4F57-7404-E77A5AD36FE3"/>
+<colUsage columnID="8D72610F-0B8B-89DE-C43B-838CF07F4260"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9CE4B7FC-3F25-8272-8C21-81AAE4195DB4" name="Valora_Sucursal_FK">

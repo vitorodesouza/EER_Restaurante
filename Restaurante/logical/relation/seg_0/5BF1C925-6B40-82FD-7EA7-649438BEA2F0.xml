@@ -1,20 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sucursal_Restaurante_FK" directorySegmentName="seg_0" id="4DC3C619-E281-CD4A-889B-55D5AA14D293">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>1F3BD247-A12D-2C71-AFE0-E03C92F98CF4</generatorID>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Valores Restaurante FK" directorySegmentName="seg_0" id="5BF1C925-6B40-82FD-7EA7-649438BEA2F0">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:09:26 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
 <engineerTo>
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <sourcePk>1A027229-0E12-1365-BD22-E1554282E2DF</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>157B5966-4615-109B-D97E-10F508379A9B</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>2E907C9B-C86D-4E72-6167-1D129BDC6980</targetEntity>
+<targetEntity>00C45DD6-5385-BFB6-CD4A-8FF487A443DA</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

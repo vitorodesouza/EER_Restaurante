@@ -12,24 +12,56 @@
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:53:06 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7FAE8247-28A9-7BEB-ACA7-A40A71938352</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Sucursal_ID" id="BE19374B-0B92-AEFF-9818-199F3A46E323">
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:53:51 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9A6F6E72-99B9-ACA1-906F-74D5D80E06A8" referredColumn="7F8C76AE-06BD-FD17-069B-1EFA87D5A986"/>
+</associations>
+</Column>
+<Column name="Valora_Sucursal_ID" id="77648C86-4339-F27C-C455-F6E0343B06CC">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:54:10 UTC</createdTime>
+<generatorID>F6302BF2-A2B8-9F29-5064-431F35723ADE</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64136D41-6F5F-853B-FAD4-01BEAD4F394D" referredColumn="3CD83D59-99B4-1645-D968-7099C8E8D525"/>
+</associations>
+</Column>
+<Column name="Valora_ClienteAnonimo_Usuario" id="915B1DE7-BBCC-3C46-37A0-6B9366C260D5">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:54:10 UTC</createdTime>
+<generatorID>402381EA-A34D-742F-B494-2F1B45CC83D8</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64136D41-6F5F-853B-FAD4-01BEAD4F394D" referredColumn="FFE55BA7-ED9B-4F57-7404-E77A5AD36FE3"/>
 </associations>
 </Column>
 </columns>
@@ -46,6 +78,18 @@
 <colUsage columnID="BE19374B-0B92-AEFF-9818-199F3A46E323"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="9ADA34B0-C7D6-FE87-6A08-C659FB6E4B35" name="ClienteAnonimo__IDX">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:54:10 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8E306B41-FC86-D713-CCD9-9E45A0638AD9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="77648C86-4339-F27C-C455-F6E0343B06CC"/>
+<colUsage columnID="915B1DE7-BBCC-3C46-37A0-6B9366C260D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="D53DE6C5-6541-F86D-F536-806987D50039" name="ClienteAnonimo_Sucursal_FK">
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:53:51 UTC</createdTime>
@@ -54,6 +98,18 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BE19374B-0B92-AEFF-9818-199F3A46E323"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8879E9F2-3F4A-8923-0627-CE1BFDAD3DC0" name="ClienteAnonimo_Valora_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-22 13:54:10 UTC</createdTime>
+<generatorID>8E306B41-FC86-D713-CCD9-9E45A0638AD9</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77648C86-4339-F27C-C455-F6E0343B06CC"/>
+<colUsage columnID="915B1DE7-BBCC-3C46-37A0-6B9366C260D5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
