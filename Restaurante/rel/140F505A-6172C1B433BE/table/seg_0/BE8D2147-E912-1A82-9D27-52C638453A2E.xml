@@ -24,7 +24,6 @@
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:51:22 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

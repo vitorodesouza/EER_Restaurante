@@ -48,6 +48,32 @@
 <colAssociation fkAssociation="B5839850-8C2B-DCA4-233A-C61B3E7E52D0" referredColumn="AF5EE192-FE5C-3E6A-9A9F-5569CF422E6E"/>
 </associations>
 </Column>
+<Column name="Reserva_Numero" id="E99D570E-4030-827B-D18A-407F640EB212">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 17:31:59 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75B8D51C-BBBF-7752-EC2F-494281CEE107" referredColumn="ABD845CC-6381-D7B7-EF30-A89A80265A3A"/>
+</associations>
+</Column>
+<Column name="Reserva_Cliente_ID" id="0CA7BFAF-BC85-E826-DEB7-D479B5F8C1DD">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 17:32:45 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75B8D51C-BBBF-7752-EC2F-494281CEE107" referredColumn="E9B262BF-DE2E-0E26-8634-7C1653EA6319"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0A9A8F3C-DF8A-C637-0B2D-7F037F2D28D9" name="Guarda_PK">
@@ -60,6 +86,8 @@
 <indexColumnUsage>
 <colUsage columnID="56207907-B15D-68F9-C3E5-D99C08B0DDA8"/>
 <colUsage columnID="01C37089-9DCC-874A-9415-AB669D6B0885"/>
+<colUsage columnID="E99D570E-4030-827B-D18A-407F640EB212"/>
+<colUsage columnID="0CA7BFAF-BC85-E826-DEB7-D479B5F8C1DD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="CCE317A4-B64A-47EE-657E-A28EE2F53D82" name="Guarda_Mesa_FK">
@@ -71,6 +99,17 @@
 <indexColumnUsage>
 <colUsage columnID="56207907-B15D-68F9-C3E5-D99C08B0DDA8"/>
 <colUsage columnID="01C37089-9DCC-874A-9415-AB669D6B0885"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C2D9C70-2F52-3466-8FD7-4829F40EFBEA" name="Guarda_Reserva_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 17:33:54 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CA7BFAF-BC85-E826-DEB7-D479B5F8C1DD"/>
+<colUsage columnID="E99D570E-4030-827B-D18A-407F640EB212"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
