@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="5C1968D3-8633-4707-3215-0F20756E3543">
+<Column name="Número" id="ABD845CC-6381-D7B7-EF30-A89A80265A3A">
 <createdBy>vos_v</createdBy>
 <createdTime>2023-11-19 16:55:58 UTC</createdTime>
 <ownerDesignName>Restaurante</ownerDesignName>
@@ -16,20 +16,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Nombre" id="ABD845CC-6381-D7B7-EF30-A89A80265A3A">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 16:55:58 UTC</createdTime>
-<ownerDesignName>Restaurante</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Cantidad" id="933069A8-7EFC-F01F-FA77-5D9F95F3E668">
@@ -42,20 +28,6 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Sucursal_ID" id="65EDB306-1638-1D75-A305-C77948185161">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 16:56:04 UTC</createdTime>
-<ownerDesignName>Restaurante</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F360211C-2A30-9698-4910-57D51F50460E" referredColumn="7F8C76AE-06BD-FD17-069B-1EFA87D5A986"/>
-</associations>
 </Column>
 <Column name="Cliente_ID" id="E9B262BF-DE2E-0E26-8634-7C1653EA6319">
 <createdBy>vos_v</createdBy>
@@ -81,19 +53,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5C1968D3-8633-4707-3215-0F20756E3543"/>
-<colUsage columnID="65EDB306-1638-1D75-A305-C77948185161"/>
 <colUsage columnID="E9B262BF-DE2E-0E26-8634-7C1653EA6319"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="23707C86-8990-2884-8C77-501C1D40A0A1" name="Reserva_Sucursal_FK">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 16:56:04 UTC</createdTime>
-<ownerDesignName>Restaurante</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="65EDB306-1638-1D75-A305-C77948185161"/>
+<colUsage columnID="ABD845CC-6381-D7B7-EF30-A89A80265A3A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="EAB9F424-7495-757B-E50E-2844E84590D2" name="Reserva_Cliente_FK">
