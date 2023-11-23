@@ -15,36 +15,6 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Sucursal ID" id="EBA71B78-FDAC-FCC2-792A-3750F8DBF524">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>3F64E0D7-7D4E-06AF-AA55-911586D7A450</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>DA84FDD3-8807-6145-37A4-E0BDB4A44118</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Producto ID" id="0C79E859-E0C1-6DBB-1881-718758508B6E">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>4B076D34-4794-ED99-B989-5EF02724BC63</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>46B7732F-5ADF-25FF-5435-B83662605801</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8E471EB8-FFAF-516F-CA12-F9434E9D11D6" name="Ofrece PK">
 <createdBy>vos_v</createdBy>
@@ -56,10 +26,6 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>EBA71B78-FDAC-FCC2-792A-3750F8DBF524</attributeRef>
-<attributeRef>0C79E859-E0C1-6DBB-1881-718758508B6E</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

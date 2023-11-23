@@ -16,9 +16,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Camarero Empleado DNI" id="36CDD75A-B7B2-FBF0-4300-C6F8708F534F">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<Attribute name="Empleado DNI" id="FDFFB988-1309-F206-7210-021177A824B4">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 12:30:56 UTC</createdTime>
 <generatorID>A100BC18-EC1D-9335-60A6-4D38007D7F64</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
 <engineerTo>
@@ -28,20 +28,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Pedido NumeroPedido" id="9F89913C-8CAD-CE1D-7F1D-8E5F76CB93AA">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>4923080C-807D-189E-6A7E-447C906A0475</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>C2DB4663-615E-B929-279F-651103CE66D7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -56,10 +42,6 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>36CDD75A-B7B2-FBF0-4300-C6F8708F534F</attributeRef>
-<attributeRef>9F89913C-8CAD-CE1D-7F1D-8E5F76CB93AA</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

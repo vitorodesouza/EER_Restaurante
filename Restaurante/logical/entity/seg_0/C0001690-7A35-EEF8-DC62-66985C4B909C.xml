@@ -30,34 +30,6 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Producto ID" id="A8E3775C-DCA7-AF43-0A90-DAC1BBE83A4B">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>ECC7F89F-94EB-5D23-2888-E484F4E6388A</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>46B7732F-5ADF-25FF-5435-B83662605801</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Ingrediente ID" id="9E78AFAE-B3A0-CE26-F34F-CED133E1B898">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>F45AD0AA-F771-FA7C-111C-B23B271509B7</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>E7702088-AA55-3475-B5B4-BE4D7F28FB2E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0424AFC3-5A9C-600D-3C23-616ACC4AEB02" name="NecesitaDe PK">
@@ -70,10 +42,6 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>A8E3775C-DCA7-AF43-0A90-DAC1BBE83A4B</attributeRef>
-<attributeRef>9E78AFAE-B3A0-CE26-F34F-CED133E1B898</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

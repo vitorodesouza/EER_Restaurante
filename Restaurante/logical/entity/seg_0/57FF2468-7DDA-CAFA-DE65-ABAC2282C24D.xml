@@ -16,74 +16,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Cliente ID" id="C345F222-352D-8E21-3A59-01C737B2B566">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<Attribute name="ID" id="E4A3513A-76E8-4B0A-6091-30862F568194">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 12:34:37 UTC</createdTime>
 <generatorID>C0188E5A-1E57-08BD-CA8B-2089C1915508</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
 <engineerTo>
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <referedAttribute>95D448A0-0FCF-6AE9-43CD-F271ED511B6E</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Reserva ID" id="532BEBBD-5A4F-721D-9A5C-0BAA956910AB">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>F5898959-D29E-39FB-9D66-0A79A352FBC9</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>12433E48-859F-46ED-6341-C00C79345176</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Reserva Sucursal ID" id="8A30F17D-0AB0-3391-8E11-8C0AF0203441">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>F5898959-D29E-39FB-9D66-0A79A352FBC9</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>413B63B3-15B9-1370-41FE-97F93C2FE3DF</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Reserva Cliente ID" id="93F8F861-CE36-5579-2336-F8010301DA5B">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>F5898959-D29E-39FB-9D66-0A79A352FBC9</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>4BF1AD2E-E16C-995E-83B6-F922C3439A75</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Sucursal ID" id="766D1887-C4B5-B52B-E0B5-EC9530EB8DBB">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>E10CE501-C9AA-EB68-2B2E-53B3B7DCA3E1</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>DA84FDD3-8807-6145-37A4-E0BDB4A44118</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<domain>1046B558-3A46-DE94-08B7-0173F69372D9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

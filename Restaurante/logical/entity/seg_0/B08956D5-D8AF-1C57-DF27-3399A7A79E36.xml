@@ -43,6 +43,32 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Pedido NumeroPedido" directorySegmentName="seg_0" id="68BE9C7C-A4E8-7443-0434-0FB4AF0E5982">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 11:52:00 UTC</createdTime>
+<generatorID>4923080C-807D-189E-6A7E-447C906A0475</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<referedAttribute>9F89913C-8CAD-CE1D-7F1D-8E5F76CB93AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NULL SET GENERATED_225" directorySegmentName="seg_0" id="5F6851E6-C180-3E1A-D6A1-02955DD12314">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 11:52:02 UTC</createdTime>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A0410B3A-66DD-522E-FA44-C8DC11F53355" name="Pedido PK">
@@ -57,6 +83,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C2DB4663-615E-B929-279F-651103CE66D7</attributeRef>
+<attributeRef>68BE9C7C-A4E8-7443-0434-0FB4AF0E5982</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

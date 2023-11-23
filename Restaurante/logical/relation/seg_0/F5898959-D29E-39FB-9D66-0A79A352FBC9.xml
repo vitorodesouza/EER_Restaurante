@@ -9,9 +9,9 @@
 </engineerTo>
 <sourcePk>2258C8D6-B9D4-101E-9659-327A1AE4BFF5</sourcePk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>7D2D0CA2-F7CE-54A4-553C-72278756405E</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>57FF2468-7DDA-CAFA-DE65-ABAC2282C24D</targetEntity>

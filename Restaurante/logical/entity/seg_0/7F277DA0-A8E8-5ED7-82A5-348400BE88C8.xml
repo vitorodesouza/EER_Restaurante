@@ -30,48 +30,6 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ingrediente ID" id="3151DC36-FC2E-51CC-F834-DEF3052D1916">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>55E258AE-642B-42F8-191B-2F198970E190</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>E7702088-AA55-3475-B5B4-BE4D7F28FB2E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Proveedor ID" id="464C137D-2578-94CF-0CA5-1C67DC7F0BAC">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>DA75184B-7495-83F0-7D9A-79728EAA7107</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>80F19E3B-6134-D504-951F-0C608DC3EC8E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Sucursal ID" id="5211829C-7AEB-B596-31EE-30DC52080EC1">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>293CD12D-5B17-A8B8-A11D-15FEE6586067</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>DA84FDD3-8807-6145-37A4-E0BDB4A44118</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8E64B74C-20B1-7B0E-6CA0-49300FB6AFD3" name="Suministra PK">
@@ -84,11 +42,6 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>3151DC36-FC2E-51CC-F834-DEF3052D1916</attributeRef>
-<attributeRef>464C137D-2578-94CF-0CA5-1C67DC7F0BAC</attributeRef>
-<attributeRef>5211829C-7AEB-B596-31EE-30DC52080EC1</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

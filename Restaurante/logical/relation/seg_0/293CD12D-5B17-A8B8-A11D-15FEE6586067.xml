@@ -8,10 +8,10 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
 <sourcePk>E3251260-3133-B2C1-03D2-062BB0E4A393</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>2E907C9B-C86D-4E72-6167-1D129BDC6980</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>7F277DA0-A8E8-5ED7-82A5-348400BE88C8</targetEntity>

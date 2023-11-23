@@ -16,29 +16,29 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Producto ID" id="9A5D15A2-70E4-5837-B844-86AA0029FC24">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>87A0E54E-DB6C-24B7-F8FC-3EDEB46C46E0</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>46B7732F-5ADF-25FF-5435-B83662605801</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Pedido NumeroPedido" id="B70EC407-F687-DE6A-D20E-4B9A64D33B1E">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<Attribute name="Pedido NumeroPedido11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112" id="B70804F6-D0D3-29B0-659F-FB52C5D40716">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 11:52:03 UTC</createdTime>
 <generatorID>72E1821A-1B29-7776-8783-F97A4D9199B1</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
 <engineerTo>
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
 </engineerTo>
-<referedAttribute>C2DB4663-615E-B929-279F-651103CE66D7</referedAttribute>
+<referedAttribute>90CE66D7-BE27-D731-C062-7ACAB7973D76</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pedido NumeroPedido11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112" id="29B0E3A6-5F9C-04AB-D485-58E1E2464160">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 11:52:48 UTC</createdTime>
+<generatorID>72E1821A-1B29-7776-8783-F97A4D9199B1</generatorID>
+<ownerDesignName>Restaurante</ownerDesignName>
+<engineerTo>
+<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
+</engineerTo>
+<referedAttribute>9E1F9691-F1C0-0922-A36A-7E56B70F1F8B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -57,8 +57,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9A5D15A2-70E4-5837-B844-86AA0029FC24</attributeRef>
-<attributeRef>B70EC407-F687-DE6A-D20E-4B9A64D33B1E</attributeRef>
+<attributeRef>B70804F6-D0D3-29B0-659F-FB52C5D40716</attributeRef>
+<attributeRef>29B0E3A6-5F9C-04AB-D485-58E1E2464160</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

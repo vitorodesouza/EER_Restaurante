@@ -15,36 +15,6 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Sucursal ID" id="8D6CC59A-97A9-D9FC-B0A7-470D2229E64F">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>B965AEF1-08F3-F4AF-26CA-B1D3671C4CB7</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>DA84FDD3-8807-6145-37A4-E0BDB4A44118</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Empleado DNI" id="844633BD-06D5-A940-DB8C-EDE04D9B1EAF">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
-<generatorID>1F5631FB-83E0-094B-F7E0-117BA642CF2A</generatorID>
-<ownerDesignName>Restaurante</ownerDesignName>
-<engineerTo>
-<item key="140F505A-F956-366E-26CA-6172C1B433BE" value="true"/>
-</engineerTo>
-<referedAttribute>E0A89E35-12E7-F4F1-86A7-33B696D8BBEA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E0771445-AED3-6E13-5C3D-975814E82B60" name="TrabajaEn PK">
 <createdBy>vos_v</createdBy>
@@ -56,10 +26,6 @@
 <item key="140F505A-F956-366E-26CA-6172C1B433BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>8D6CC59A-97A9-D9FC-B0A7-470D2229E64F</attributeRef>
-<attributeRef>844633BD-06D5-A940-DB8C-EDE04D9B1EAF</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

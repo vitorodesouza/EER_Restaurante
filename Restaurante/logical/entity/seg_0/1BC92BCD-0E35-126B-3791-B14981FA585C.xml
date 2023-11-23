@@ -43,9 +43,9 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Sucursal ID" id="0B979BDE-5C4D-D135-B919-5339430A9B03">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<Attribute name="ID" id="7B4CFFAA-EEA0-5D6F-B307-6C7DC4191638">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 12:08:17 UTC</createdTime>
 <generatorID>28B460D7-CF55-0916-7E66-5E5DC6C29AC1</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
 <engineerTo>
@@ -71,7 +71,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>D5AD5556-355C-20FB-40BD-79238C02F038</attributeRef>
-<attributeRef>0B979BDE-5C4D-D135-B919-5339430A9B03</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

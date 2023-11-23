@@ -72,9 +72,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cliente ID" id="4BF1AD2E-E16C-995E-83B6-F922C3439A75">
-<createdBy>vos_v</createdBy>
-<createdTime>2023-11-19 17:48:34 UTC</createdTime>
+<Attribute name="ID1" id="3D95267F-6C6F-4688-02C7-0ECFC85E79DD">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-11-23 12:34:50 UTC</createdTime>
 <generatorID>26F1B4A8-58EA-25F4-1993-978465B45A2D</generatorID>
 <ownerDesignName>Restaurante</ownerDesignName>
 <engineerTo>
@@ -101,7 +101,6 @@
 <usedAttributes>
 <attributeRef>12433E48-859F-46ED-6341-C00C79345176</attributeRef>
 <attributeRef>413B63B3-15B9-1370-41FE-97F93C2FE3DF</attributeRef>
-<attributeRef>4BF1AD2E-E16C-995E-83B6-F922C3439A75</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
